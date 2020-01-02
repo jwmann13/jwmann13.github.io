@@ -8,6 +8,7 @@ body {
 
 section {
     min-height: 90vh;
+    margin-bottom: 2rem;
 }
 
 .navbar {
@@ -58,7 +59,7 @@ a:hover {
 
 #about-img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* Icons */
