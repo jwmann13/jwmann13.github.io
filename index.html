@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeffrey Mann</title>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,400,400i,600,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d64d6272c5.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" id="nav-head">
+        <div class="container">
+            <!-- Site Title -->
+            <a href="#page-top" class="navbar-brand js-scroll-trigger">Jeffrey Mann</a>
+            <!-- Hamburger button -->
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Nav Links -->
+            <div class="navbar-collapse collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body -->
+    <section class="mt-2" id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h1 class="display-4 text-center text-md-left sec-title show-on-scroll">About Me</h1>
+                </div>
+                <div class="col-12">
+                    <hr>
+                </div>
+                <img src="images/jiff.gif" alt="My GF made this!"
+                    class="img-fluid mb-4 mb-md-auto col-12 col-md-6 col-lg-5" id="about-img">
+                <p class="lead mb-5 mb-md-2 mb-lg-2 col-12 col-md-6 col-lg-7">
+                    Full-Stack Web Developer and Musician with a particular interest in front-end application
+                    interaction and visualization along with back-end networking and data transference. My initial
+                    interest in code began through building music applications in my bachelors of Music Theory at
+                    the University of Georgia and wanted to bring my analytical and pattern-based approach to other
+                    kinds of applications. I completed the Coding Bootcamp at Georgia Tech with skills in
+                    Javascript, HTML, CSS, NodeJS, ReactJS, Express, and Sequelize with MySQL and Postgres, and
+                    mongoose with MongoDB. I also have experience with audio DSP frameworks like MaxMSP,
+                    SuperCollider, and PureData and with graphics libraries like p5.js, Three.js, and glslify. I
+                    believe that there is a wealth of creative solutions to every problem and collaboration through
+                    code is the most exciting way for groups to find those solutions.
+                    <br />
+                    <a clhref="resume/10-29-2019 Jeffrey Mann Resume.pdf" target="_blank">View my resume</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4 text-center text-md-left sec-title show-on-scroll">Portfolio</h1>
+                </div>
+                <div class="col-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="card p-0 mb-2">
+                        <a href="https://jwmann13.github.io/gt-project-1-group-11/" class="card-link"><img
+                                src="images/painmgmt.png" alt="" class="card-img-top"
+                                style="background-color: black;"></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pain Treatment Plan</h5>
+                            <p class="card-text">
+                                A system for doctors to keep data on multiple patient's pain symptoms to create
+                                plans
+                                for treatment and medication.
+                            </p>
+                            <a href="https://www.github.com/jwmann13/gt-project-1-group-11"><i
+                                    class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card p-0 mb-2">
+                        <a href="https://jwmann13.github.io/word-guess-game/" class="card-link"><img
+                                src="images/wordguess.jpeg" alt="" class="card-img-top"></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Fruity Hangman</h5>
+                            <p class="card-text">
+                                A hangman-style game with a fruity twist! Images created by Reagan Floyd.
+                            </p>
+                            <a href="https://www.github.com/jwmann13/word-guess-game"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card p-0 mb-2">
+                        <a href="https://jwmann13.github.io/trivia-game/" class="card-link"><img src="images/trivia.png"
+                                alt="" class="card-img-top"></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Classical Music Trivia</h5>
+                            <p class="card-text">
+                                A timed triva game with questions about classical music.
+                            </p>
+                            <a href="https://www.github.com/jwmann13/trivia-game"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card p-0 mb-2">
+                        <a href="https://calm-brook-43420.herokuapp.com/" class="card-link"><img
+                                src="images/musicfront.png" alt="" class="card-img-top"
+                                style="background-color: black;"></a>
+
+                        <div class="card-body">
+                            <h5 class="card-title">MusicFront</h5>
+                            <p class="card-text">
+                                A prospective music instrument retailer. Uses Node, Express, Handlebars, and Passport
+                                for an indivualized user experience with login and checkout.
+                            </p>
+                            <a href="https://www.github.com/jwmann13/musicfront"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4 text-center text-md-left sec-title show-on-scroll">Contact</h1>
+                </div>
+                <div class="col-12">
+                    <hr>
+                </div>
+            </div>
+
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="inputMsg">Message</label>
+                    <textarea class="form-control" id="inputMsg" rows="3" placeholder="Your message..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <div class="fixed-bottom bg-light footer">
+        <div class="row text-center">
+            <div class="col-12 social">
+                <a href="https://www.github.com/jwmann13/"><i class="fab fa-github"></i></a>
+                <a href="mailto:jwmann22@gmail.com?subject=From%20Your%20Portfolio"><i
+                        class="far fa-envelope-open"></i></a>
+                <a href="https://www.linkedin.com/in/jeffrey-mann-449079111/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scroller.js"></script>
+</body>
+
+</html>
