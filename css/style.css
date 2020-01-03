@@ -11,6 +11,10 @@ section {
     margin-bottom: 2rem;
 }
 
+section#contact {
+    margin-bottom: 0;
+}
+
 .navbar {
     font-size: 24px;
     font-weight: 300;
@@ -19,8 +23,7 @@ section {
 }
 
 .navbar-brand {
-    color: rgb(46, 124, 246);
-    font-size: 28px;
+    font-size: larger;
 }
 
 a {
