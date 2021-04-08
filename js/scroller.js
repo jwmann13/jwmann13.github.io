@@ -30,9 +30,9 @@ const scroll = window.requestAnimationFrame || function (callback) {
 };
 
 const elementsToShow = document.querySelectorAll(".show-on-scroll");
+console.log(elementsToShow)
 
 function loop() {
-    // console.log("loop")
     elementsToShow.forEach(function (element) {
         if (isElementInViewport(element)) {
             element.classList.add('is-visible');
