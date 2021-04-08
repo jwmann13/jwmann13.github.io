@@ -1,115 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Jeffrey Mann</title>
 
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Jeffrey Mann</title>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,400,400i,600,700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,400,400i,600,700&display=swap"
+    rel="stylesheet" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-  </head>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
 
-  <body id="page-top">
-    <!-- Header -->
-    <nav class="navbar navbar-expand-md navbar-light sticky-top" id="nav-head">
-      <div class="container">
-        <!-- Site Title -->
-        <a href="#page-top" class="navbar-brand js-scroll-trigger"
-          >Jeffrey Mann</a
-        >
-        <!-- Hamburger button -->
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Nav Links -->
-        <div class="navbar-collapse collapse" id="navbarResponsive">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">
-                Portfolio
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+
+<body id="page-top">
+  <!-- Header -->
+  <nav class="navbar navbar-expand-md navbar-light sticky-top" id="nav-head">
+    <div class="container">
+      <!-- Site Title -->
+      <a href="#page-top" class="navbar-brand js-scroll-trigger" aria-label="Jeffrey Mann Portfolio Site">Jeffrey Mann</a>
+      <!-- Hamburger button -->
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav Links -->
+      <div class="navbar-collapse collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
+  <main class="">
     <!-- Body -->
-    <section class="mt-2" id="about">
+    <section class="mt-4" id="about">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
-            <h1
-              class="display-4 text-center text-md-left sec-title show-on-scroll"
-            >
+            <h1 class="display-4 text-center text-md-left sec-title show-on-scroll">
               About Me
             </h1>
           </div>
           <div class="col-12">
             <hr />
           </div>
-          <img
-            src="images/jiff.gif"
-            alt="My GF made this!"
-            class="img-fluid mb-4 mb-md-auto col-12 col-md-6 col-lg-5"
-            id="about-img"
-          />
+          <img src="images/jiff.gif" alt="Headshot GIF of Jeffrey Mann"
+            class="img-fluid mb-4 mb-md-auto col-12 col-md-6 col-lg-5" id="about-img" />
           <p class="lead mb-5 mb-md-2 mb-lg-2 col-12 col-md-6 col-lg-7">
-            Full-Stack Web Developer and Musician with a particular interest in
-            front-end application interaction and visualization along with
-            back-end networking and data transference. My initial interest in
-            code began through building music applications in my bachelors of
+            Full Stack Engineer at Talent Path in the DMV area living in Washington, DC.
+            My initial interest in code began through building music applications in my bachelors of
             Music Theory at the University of Georgia and wanted to bring my
             analytical and pattern-based approach to other kinds of
             applications. I completed the Coding Bootcamp at Georgia Tech with
             skills in Javascript, HTML, CSS, NodeJS, ReactJS, Express, and
-            Sequelize with MySQL and Postgres, and mongoose with MongoDB. I also
-            have experience with audio DSP frameworks like MaxMSP,
-            SuperCollider, and PureData and with graphics libraries like p5.js,
-            Three.js, and glslify. I believe that there is a wealth of creative
-            solutions to every problem and collaboration through code is the
-            most exciting way for groups to find those solutions.
+            Sequelize with MySQL and Postgres, and mongoose with MongoDB. My training at
+            Talent Path has exposed me to Java, Spring Boot, Angular, and Vue. I also
+            have experience with audio DSP frameworks like MaxMSP, SuperCollider,
+            and PureData and with graphics libraries like p5.js, Three.js, and glslify.
+            I believe that there is a wealth of creative solutions to every problem and
+            collaboration through code is the most exciting way to find those solutions.
             <br />
             <br />
-            <a
-              href="resume/JWM Resume 2-16-20.pdf"
-              target="_blank"
-              class="resume"
-              >View my resume</a
-            >
+            <a href="resume/JWM-resume.pdf" target="_blank" class="resume">View my resume</a>
           </p>
         </div>
       </div>
@@ -119,9 +93,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1
-              class="display-4 text-center text-md-left sec-title show-on-scroll"
-            >
+            <h1 class="display-4 text-center text-md-left sec-title show-on-scroll">
               Portfolio
             </h1>
           </div>
@@ -130,20 +102,15 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-6 col-md-3 d-flex align-items-stretch">
+          <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
             <div class="card p-0 mb-2">
-              <a href="http://activityup.vote" class="card-link">
-                <img
-                  src="images/activityup.jpg"
-                  alt=""
-                  class="card-img-top"
-                  style="background-color: black;"
-                />
+              <a href="http://activityup.vote" class="card-link" aria-label="ActivityUp Site Link">
+                <img src="images/activityup.jpg" alt="" class="card-img-top" style="background-color: black;" />
               </a>
 
               <div class="card-body">
                 <h5 class="card-title">
-                  <a href="http://activityup.vote" class="card-link">
+                  <a href="http://activityup.vote" class="card-link" aria-label="ActivityUp Site Link">
                     ActivityUP
                   </a>
                 </h5>
@@ -151,13 +118,11 @@
                   A social site for planning events and acitivities with a group
                   that allows for voting and easier decision making.
                 </p>
-                <a href="https://github.com/XtraChase/activityup">
+                <a href="https://github.com/XtraChase/activityup" aria-label="ActivityUp github Link">
                   <i class="fas fa-code"></i>
                 </a>
               </div>
-              <ul
-                class="list-group list-group-flush d-flex flex-row flex-wrap tech"
-              >
+              <ul class="list-group list-group-flush d-flex flex-row flex-wrap tech">
                 <li class="list-group-item py-0 w-50">Node</li>
                 <li class="list-group-item py-0 w-50">Express</li>
                 <li class="list-group-item py-0 w-50">MongoDB</li>
@@ -166,26 +131,15 @@
               </ul>
             </div>
           </div>
-          <div class="col-6 col-md-3 d-flex align-items-stretch">
+          <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
             <div class="card p-0 mb-2">
-              <a
-                href="https://calm-brook-43420.herokuapp.com/"
-                class="card-link"
-              >
-                <img
-                  src="images/musicfront.jpg"
-                  alt=""
-                  class="card-img-top"
-                  style="background-color: black;"
-                />
+              <a href="https://calm-brook-43420.herokuapp.com/" class="card-link" aria-label="MusicFront Site Link">
+                <img src="images/musicfront.jpg" alt="" class="card-img-top" style="background-color: black;" />
               </a>
 
               <div class="card-body">
                 <h5 class="card-title">
-                  <a
-                    href="https://calm-brook-43420.herokuapp.com/"
-                    class="card-link"
-                  >
+                  <a href="https://calm-brook-43420.herokuapp.com/" class="card-link" aria-label="MusicFront Site Link">
                     MusicFront
                   </a>
                 </h5>
@@ -194,13 +148,11 @@
                   Handlebars, and Passport for an indivualized user experience
                   with login and checkout.
                 </p>
-                <a href="https://www.github.com/jwmann13/musicfront">
+                <a href="https://www.github.com/jwmann13/musicfront" aria-label="MusicFront Github Link">
                   <i class="fas fa-code"></i>
                 </a>
               </div>
-              <ul
-                class="list-group list-group-flush d-flex flex-row flex-wrap tech"
-              >
+              <ul class="list-group list-group-flush d-flex flex-row flex-wrap tech">
                 <li class="list-group-item py-0 w-50">Node</li>
                 <li class="list-group-item py-0 w-50">Express</li>
                 <li class="list-group-item py-0 w-50">MySQL</li>
@@ -209,26 +161,15 @@
               </ul>
             </div>
           </div>
-          <div class="col-6 col-md-3 d-flex align-items-stretch">
+          <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
             <div class="card p-0 mb-2">
-              <a
-                href="https://jwmann13.github.io/pain-management-portal/"
-                class="card-link"
-              >
-                <img
-                  src="images/painmgmt.jpg"
-                  alt=""
-                  class="card-img-top"
-                  style="background-color: black;"
-                />
+              <a href="https://jwmann13.github.io/pain-management-portal/" class="card-link" aria-label="Pain Management Portal Site Link">
+                <img src="images/painmgmt.jpg" alt="" class="card-img-top" style="background-color: black;" />
               </a>
 
               <div class="card-body">
                 <h5 class="card-title">
-                  <a
-                    href="https://jwmann13.github.io/pain-management-portal/"
-                    class="card-link"
-                  >
+                  <a href="https://jwmann13.github.io/pain-management-portal/" class="card-link" aria-label="Pain Management Portal Site Link">
                     Pain Treatment Plan
                   </a>
                 </h5>
@@ -236,13 +177,11 @@
                   A system for doctors to keep data on multiple patient's pain
                   symptoms to create plans for treatment and medication.
                 </p>
-                <a href="https://github.com/jwmann13/pain-management-portal">
+                <a href="https://github.com/jwmann13/pain-management-portal" aria-label="Pain Management Portal Github Link">
                   <i class="fas fa-code"></i>
                 </a>
               </div>
-              <ul
-                class="list-group list-group-flush d-flex flex-row flex-wrap tech"
-              >
+              <ul class="list-group list-group-flush d-flex flex-row flex-wrap tech">
                 <li class="list-group-item py-0 w-50">Javascript</li>
                 <li class="list-group-item py-0 w-50">HTML</li>
                 <li class="list-group-item py-0 w-50">CSS</li>
@@ -251,26 +190,15 @@
               </ul>
             </div>
           </div>
-          <div class="col-6 col-md-3 d-flex align-items-stretch">
+          <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
             <div class="card p-0 mb-2">
-              <a
-                href="https://jwm-news-scraper.herokuapp.com/reviews"
-                class="card-link"
-              >
-                <img
-                  src="images/pitchfork.jpg"
-                  alt=""
-                  class="card-img-top"
-                  style="background-color: black;"
-                />
+              <a href="https://jwm-news-scraper.herokuapp.com/reviews" class="card-link" aria-label="Pitchfork Scraper Site Link">
+                <img src="images/pitchfork.jpg" alt="" class="card-img-top" style="background-color: black;" />
               </a>
 
               <div class="card-body">
                 <h5 class="card-title">
-                  <a
-                    href="https://jwm-news-scraper.herokuapp.com/reviews"
-                    class="card-link"
-                  >
+                  <a href="https://jwm-news-scraper.herokuapp.com/reviews" class="card-link" aria-label="Pitchfork Scraper Site Link">
                     Pitchfork Scraper
                   </a>
                 </h5>
@@ -279,13 +207,11 @@
                   website and allows user to add comments and be redirected to
                   the album review.
                 </p>
-                <a href="https://github.com/jwmann13/news-scraper">
+                <a href="https://github.com/jwmann13/news-scraper" aria-label="Pitchfork Scraper Github Link">
                   <i class="fas fa-code"></i>
                 </a>
               </div>
-              <ul
-                class="list-group list-group-flush d-flex flex-row flex-wrap tech"
-              >
+              <ul class="list-group list-group-flush d-flex flex-row flex-wrap tech">
                 <li class="list-group-item py-0 w-50">Node</li>
                 <li class="list-group-item py-0 w-50">Express</li>
                 <li class="list-group-item py-0 w-50">MongoDB</li>
@@ -295,21 +221,15 @@
               </ul>
             </div>
           </div>
-          <div class="col-6 col-md-3 d-flex align-items-stretch">
+          <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
             <div class="card p-0 mb-2">
-              <a
-                href="https://jwmann13.github.io/word-guess-game/"
-                class="card-link"
-              >
+              <a href="https://jwmann13.github.io/word-guess-game/" class="card-link" aria-label="Fruity Hangman Site Link">
                 <img src="images/wordguess.jpeg" alt="" class="card-img-top" />
               </a>
 
               <div class="card-body">
                 <h5 class="card-title">
-                  <a
-                    href="https://jwmann13.github.io/word-guess-game/"
-                    class="card-link"
-                  >
+                  <a href="https://jwmann13.github.io/word-guess-game/" class="card-link" aria-label="Fruity Hangman Site Link">
                     Fruity Hangman
                   </a>
                 </h5>
@@ -317,13 +237,11 @@
                   A hangman-style game with a fruity twist! Images created by
                   Reagan Floyd.
                 </p>
-                <a href="https://www.github.com/jwmann13/word-guess-game">
+                <a href="https://www.github.com/jwmann13/word-guess-game" aria-label="Fruity Hangman Github Link">
                   <i class="fas fa-code"></i>
                 </a>
               </div>
-              <ul
-                class="list-group list-group-flush d-flex flex-row flex-wrap tech"
-              >
+              <ul class="list-group list-group-flush d-flex flex-row flex-wrap tech">
                 <li class="list-group-item py-0 w-50">Javascript</li>
                 <li class="list-group-item py-0 w-50">JQuery</li>
                 <li class="list-group-item py-0 w-50">HTML</li>
@@ -331,34 +249,26 @@
               </ul>
             </div>
           </div>
-          <div class="col-6 col-md-3 d-flex align-items-stretch">
+          <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
             <div class="card p-0 mb-2">
-              <a
-                href="https://jwmann13.github.io/trivia-game/"
-                class="card-link"
-              >
+              <a href="https://jwmann13.github.io/trivia-game/" class="card-link" aria-label="Classical Music Trivia Site Link">
                 <img src="images/trivia.png" alt="" class="card-img-top" />
               </a>
 
               <div class="card-body">
                 <h5 class="card-title">
-                  <a
-                    href="https://jwmann13.github.io/trivia-game/"
-                    class="card-link"
-                  >
+                  <a href="https://jwmann13.github.io/trivia-game/" class="card-link" aria-label="Classical Music Trivia Site Link">
                     Classical Music Trivia
                   </a>
                 </h5>
                 <p class="card-text">
                   A timed triva game with questions about classical music.
                 </p>
-                <a href="https://www.github.com/jwmann13/trivia-game">
+                <a href="https://www.github.com/jwmann13/trivia-game" aria-label="Classical Music Trivia Github Link">
                   <i class="fas fa-code"></i>
                 </a>
               </div>
-              <ul
-                class="list-group list-group-flush d-flex flex-row flex-wrap tech"
-              >
+              <ul class="list-group list-group-flush d-flex flex-row flex-wrap tech">
                 <li class="list-group-item py-0 w-50">Javascript</li>
                 <li class="list-group-item py-0 w-50">JQuery</li>
                 <li class="list-group-item py-0 w-50">ES6 Objects</li>
@@ -376,9 +286,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1
-              class="display-4 text-center text-md-left sec-title show-on-scroll"
-            >
+            <h1 class="display-4 text-center text-md-left sec-title show-on-scroll">
               Contact
             </h1>
           </div>
@@ -390,77 +298,50 @@
         <form action="https://formspree.io/xvoaeydz" method="POST">
           <div class="form-group">
             <label for="inputName">Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputName"
-              placeholder="Full Name"
-              name="name"
-            />
+            <input type="text" class="form-control" id="inputName" placeholder="Full Name" name="name" />
           </div>
           <div class="form-group">
             <label for="inputEmail">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="inputEmail"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-              name="email"
-            />
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+              placeholder="Enter email" name="email" />
           </div>
           <div class="form-group">
             <label for="inputMsg">Message</label>
-            <textarea
-              class="form-control"
-              id="inputMsg"
-              rows="3"
-              placeholder="Your message..."
-              name="message"
-            ></textarea>
+            <textarea class="form-control" id="inputMsg" rows="3" placeholder="Your message..."
+              name="message"></textarea>
           </div>
 
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-light">Submit</button>
         </form>
       </div>
     </section>
+  </main>
 
-    <!-- Footer -->
-    <div class="fixed-bottom bg-light footer">
-      <div class="row text-center">
-        <div class="col-12 social">
-          <a href="https://www.github.com/jwmann13/"
-            ><i class="fab fa-github"></i
-          ></a>
-          <!-- <a href="mailto:jwmann22@gmail.com?subject=From%20Your%20Portfolio"><i
-                        class="far fa-envelope-open"></i></a> -->
-          <a href="https://www.linkedin.com/in/jwmann13/"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-        </div>
+  <!-- Footer -->
+  <div class="fixed-bottom bg-light footer">
+    <div class="row text-center">
+      <div class="col-12 social">
+        <a href="https://www.github.com/jwmann13/" aria-label="Jeffrey Mann Github"><i class="fab fa-github"></i></a>
+        <!-- <a href="mailto:jwmann22@gmail.com?subject=From%20Your%20Portfolio"><i
+                      class="far fa-envelope-open"></i></a> -->
+        <a href="https://www.linkedin.com/in/jwmann13/" aria-label="Jeffrey Mann Linkedin"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
+  </div>
 
-    <!-- JQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.js"
-      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/d64d6272c5.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 
-    <script src="js/scroller.js"></script>
-  </body>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d64d6272c5.js"></script>
+
+  <script src="js/scroller.js"></script>
+</body>
+
 </html>
