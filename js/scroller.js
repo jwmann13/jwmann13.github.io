@@ -16,12 +16,10 @@ $('.js-scroll-trigger').click(function () {
     $('.navbar-collapse').collapse('hide');
 });
 
-console.log(innerHeight)
-
 // Activate scrollspy to add active class to navbar items on scroll
 $('body').scrollspy({
     target: '#nav-head',
-    offset: $(".navbar").innerHeight() + 10
+    offset: $(".navbar").innerHeight()+50
 });
 
 
